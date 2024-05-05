@@ -1,12 +1,19 @@
-import "./home.scss";
-import Sidebar from "../../components/sidebar/Sidebar";
-
-const Home = () => {
-  return (
-    <div className="home">
-      <Sidebar />
-    </div>
-  );
-};
-
-export default Home;
+<div className="sidebar">
+	<div className="top">
+	  <div className="logo">Store</div>
+	</div>
+	<div className="center">
+	  <ul>
+	    <li>
+	      <span>list</span>
+	    </li>
+	    <li>
+	      <span>list</span>
+	    </li>
+	    <li>
+	      <span>list</span>
+	    </li>
+	  </ul>
+	</div>
+	<div className="bottom">Color options</div>
+</div>
