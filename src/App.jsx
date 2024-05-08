@@ -2,6 +2,7 @@ import { useState } from "react";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import List from "./pages/list/List";
+import Mylist from "./pages/mylist/Mylist";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -31,6 +32,7 @@ function App() {
                 element={<New inputs={productInputs} title="Add New Product" />}>
               </Route>
             </Route>
+            <Route path="categories" element={<Mylist />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
